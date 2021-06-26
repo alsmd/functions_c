@@ -3,12 +3,11 @@
 #include "my_functions.h"
 #endif
 /*
-    @char *s :      String que sera copiada.
-    @descrição :    Copia o conteudo de *s para um local dinamico na memoria
-                    e retorna um ponteiro para esse novo endereço.
-    @return :       Ponteiro para a nova string.
+    @param *s   (char) String que sera copiada.
+    @desc       Copia o conteudo de *s para um local dinamico na memoria
+                e retorna um ponteiro para esse novo endereço.
+    @return     Ponteiro para a nova string.
 */
-
 char    *ft_strdup(char *s)
 {
     int     len;

@@ -1,8 +1,8 @@
 /*
-   @char *dest :    Ponteiro para o local onde a copia sera salva.
-   @char *src :     Ponteiro para a string que sera copiada.
-   @descrição :     Copia o conteudo de src em dest.
-   @return :        Retorna o endereço de dest.
+   @param *dest     (char) Ponteiro para o local onde a copia sera salva.
+   @param *src      (char) Ponteiro para a string que sera copiada.
+   @desc            Copia o conteudo de src em dest.
+   @return          Retorna o endereço de dest.
 */
 char    *ft_strcpy(char *dest, char *src)
 {

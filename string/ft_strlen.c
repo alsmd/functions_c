@@ -1,6 +1,6 @@
 /*
-    @char *string : string a qual o tamanho sera analizado.
-    @return :       retorna o tamanho de *string sem contar o '\0'.
+    @param *string  string a qual o tamanho sera analizado.
+    @return         retorna o tamanho de *string sem contar o \\0.
 */
 int ft_strlen(char *string)
 {
