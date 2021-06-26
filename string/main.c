@@ -3,8 +3,12 @@
 
 int main(void)
 {
-    char    string[] = "Ola gente";
+    char    string[] = "flavio";
+    char    *dup;
 
-    printf("%s \n", ft_str_rev(string));
+    dup = ft_strdup(string);
+    string[0] = 'D';
+    printf("%s \n", dup);
+    printf("%s \n", string);
     return (0);
 }
