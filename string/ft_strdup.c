@@ -9,7 +9,7 @@ char    *ft_strdup(char *s)
     char    *string_dup;
 
     len = ft_strlen(s);
-    string_dup = (char *) malloc(len * 1);
+    string_dup = (char *) malloc((len * 1) + 1);
     ft_strcpy(string_dup, s);
     return string_dup;
 }
