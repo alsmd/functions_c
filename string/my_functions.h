@@ -69,3 +69,33 @@ char    *ft_strstr_rm(char *string, char *sub_string);
 void    ft_string_rm(char *string, int begin, int end);
 
 //***************************//
+
+/*
+    @param *str     (char) string que sera analizada.
+    @param *old     (char) sub_string que sera removida.
+    @param *new     (char) nova sub_string que sera colocada no lugar da antiga.
+    @desc           substitui a primeira ocorrencia de uma substring por outra, salvando essa
+                    alteração em uma nova string criada dinamicamente.
+    @return         retorna um ponteiro para uma nova string com a substring substituida.
+                     Retorna 0 caso a substring não for encontrada.
+                     O valor retornado foi criado atraves do malloc, utilizar o free quando a string não for mais necessaria.
+*/
+char    *ft_strstr_rep(char *str, char *old, char *new);
+
+//***************************//
+
+/*
+    @param *str     (char) string que sera analizada.
+    @param *start   (int) aonde o corte ira começar (incluindo start).
+    @param *end     (int) aonde o corte ira terminar (excluindo end).
+    @param *new     (char) sub_string que sera colocada no lugar de *start ate *end.
+    @desc           apaga uma substring presente entre o indice *start e *end e coloca *new no local 
+    @return         retorna um ponteiro para uma nova string com as alterações realizadas.
+                     Retorna 0 caso start ou end tiver um valor invalido. 
+                    O valor retornado foi criado atraves do malloc, utilizar o free quando a string não for mais necessaria.
+*/
+char    *ft_string_rep(char *str, int start, int end, char *new);
+
+//***************************//
+
+

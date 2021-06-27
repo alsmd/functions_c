@@ -3,9 +3,10 @@
 
 int main(void)
 {
-    char    string[] = "minha famosa string";
+    char    *string = "minha famosa string";
 
-    ft_strstr_rm(string, "amo");
-    printf("%s \n", string);
+    string = ft_strstr_rep(string, "famosa", "boba");
+        printf("%s \n", string);
+    //minha boba string
     return (0);
 }
