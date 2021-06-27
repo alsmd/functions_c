@@ -35,3 +35,15 @@ char    *ft_strcpy(char *dest, char *src);
 char    *ft_strdup(char *s);
 
 //***************************//
+
+/*
+    @param *s           (char) string onde a analize sera realizada.
+    @param  *accept     (char) padrão que sera testado.
+    @desc               analiza cada caracter e verifica se ele esta entre os aceitos,
+                        caso não esteja ira ser retornado seu indice.
+    @return             retorna o indice da primeira ocorrencia de um caracter fora de *accept.
+                        Retorna o length de *s caso todos os caracteres estejam em *accept
+*/
+int ft_strspn(char *s, char *accept);
+
+//***************************//

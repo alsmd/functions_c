@@ -4,11 +4,10 @@
 int main(void)
 {
     char    string[] = "flavio";
-    char    *dup;
+    int     index;
 
-    dup = ft_strdup(string);
-    string[0] = 'D';
-    printf("%s \n", dup);
-    printf("%s \n", string);
+    index = ft_strspn(string, "ialvf");
+    printf("%c \n", string[index]);
+    printf("%d \n", index);
     return (0);
 }
