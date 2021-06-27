@@ -1,9 +1,7 @@
-/*
-   @param *dest     (char) Ponteiro para o local onde a copia sera salva.
-   @param *src      (char) Ponteiro para a string que sera copiada.
-   @desc            Copia o conteudo de src em dest.
-   @return          Retorna o endereço de dest.
-*/
+#ifndef MY_FUNCTIONS
+#include "my_functions.h"
+#endif
+
 char    *ft_strcpy(char *dest, char *src)
 {
     int index;

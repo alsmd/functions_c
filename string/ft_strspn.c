@@ -1,11 +1,7 @@
-/*
-    @param *s           (char) string onde a analize sera realizada.
-    @param  *accept     (char) padrão que sera testado.
-    @desc               analiza cada caracter e verifica se ele ta entre os aceitos,
-                        caso não esteja ira retornar seu indice sera retornado
-    @return             retorna o indice da primeira ocorrencia de um caracter fora de *accept.
-                        Retorna o length de *s caso todos os caracteres estejam em *accept
-*/
+#ifndef MY_FUNCTIONS
+#include "my_functions.h"
+#endif
+
 int ft_strspn(char *s, char *accept)
 {
     int len;

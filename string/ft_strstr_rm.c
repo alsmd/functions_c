@@ -1,12 +1,7 @@
 #ifndef MY_FUNCTIONS
 #include "my_functions.h"
 #endif
-/*
-   @param *string           (char) string que sera analizada.
-   @param *sub_string       (char) sub_string que sera procurada e removida em *string.
-   @desc                    ira procurar a ocorencia de uma substring e deleta-la da string principal
-   @return                  retorna o endereço de *string, já com seu valor modificado.
-*/
+
 char    *ft_strstr_rm(char *string, char *sub_string)
 {
     int index;

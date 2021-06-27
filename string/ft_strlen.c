@@ -1,7 +1,7 @@
-/*
-    @param *string  string a qual o tamanho sera analizado.
-    @return         retorna o tamanho de *string sem contar o \\0.
-*/
+#ifndef MY_FUNCTIONS
+#include "my_functions.h"
+#endif
+
 int ft_strlen(char *string)
 {
     int len;
