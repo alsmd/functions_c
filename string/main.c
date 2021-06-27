@@ -3,11 +3,9 @@
 
 int main(void)
 {
-    char    string[] = "flavio";
-    int     index;
+    char    string[] = "minha famosa string";
 
-    index = ft_strspn(string, "ialvf");
-    printf("%c \n", string[index]);
-    printf("%d \n", index);
+    ft_strstr_rm(string, "amo");
+    printf("%s \n", string);
     return (0);
 }

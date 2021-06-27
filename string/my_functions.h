@@ -47,3 +47,25 @@ char    *ft_strdup(char *s);
 int ft_strspn(char *s, char *accept);
 
 //***************************//
+
+/*
+   @param *string           (char) string que sera analizada.
+   @param *sub_string       (char) sub_string que sera procurada e removida em *string.
+   @desc                    ira procurar a ocorencia de uma substring e deleta-la da string principal
+   @return                  retorna o endereço de *string, já com seu valor modificado.
+*/
+char    *ft_strstr_rm(char *string, char *sub_string);
+
+//***************************//
+
+/*
+    @param *string      string que sera analizada.
+    @param begin        apartir de qual indice a remoção sera realizada (incluindo begin).
+    @param end          ate a onde a remoção sera realizada (excluindo end).
+    @desc               ira remover uma parte da string com base em um intervalo de indices.
+    @return             (void)
+
+*/
+void    ft_string_rm(char *string, int begin, int end);
+
+//***************************//
